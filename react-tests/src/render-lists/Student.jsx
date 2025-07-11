@@ -5,7 +5,11 @@ function Student() {
     { id: 3, name: "Charlie", age: 25 },
   ];
 
-  let userList = users.map((user) => <li>{user}</li>);
+  let userList = users.map((user) => (
+    <li key={user.id}>
+      id: {user.id} name: {user.name} age: {user.age}
+    </li>
+  ));
 
   return (
     <>
