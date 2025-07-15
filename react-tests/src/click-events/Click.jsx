@@ -1,14 +1,16 @@
 function Click(){
 
-    let myName = 'dayum'
+   
 
-    let stop = (name) => {
-        alert(`${name} clicked me yamete!!`);
+    let stop = () => {
+        alert(`clicked me yamete!!`);
     }
+
+   
 
     return(
         <>
-            <button onClick={() => stop(myName)}>Click</button>
+            <button onClick={() => stop()}>Click</button>
         </>
     );
 }

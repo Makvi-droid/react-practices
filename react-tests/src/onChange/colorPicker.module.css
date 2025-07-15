@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.colorContainer{
+    border: 1px solid black;
+    padding: 8em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
